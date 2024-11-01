@@ -1,0 +1,408 @@
+@font-face {
+	font-family: 'Merienda';
+	src: url(../fonts/Merienda-VariableFont_wght.ttf);
+}
+@font-face {
+	font-family: 'Monoton';
+	src: url(../fonts/Monoton-Regular.ttf);
+}
+.sc-wordai-icon {
+	margin-right: 5px;
+	/*color: #016070; */
+}
+.boost-your-productivity-icon {
+	color: #2271b1;
+}
+.sc-wordai-apisettings-icon {
+	margin-right: 15px;
+	font-size: 30px;
+	font-weight: bolder;
+	margin-top: -5px;
+}
+.sc-wordai-apisettings-custom-icon {
+	background-image: url(images/WordAI-Icon-48x48.png);
+	background-repeat: no-repeat;	
+	display: inline-block;
+	width: 48px;
+	height: 48px;	
+	border-radius: 3px;
+}
+button.button-primary.button-large.metabox-content-writer-btn {
+	font-size: 18px !important;
+}
+.sc-wordai-metabox-button-custom-icon {
+	background-image: url(images/WAI-Black-White-Icon-20x20.png);
+	background-repeat: no-repeat;
+	display: inline-block;
+	width: 20px;
+	height: 20px;	
+	vertical-align: sub;
+	/*position: absolute;
+	left: 10%;
+	top: 26%;*/
+	border-radius: 5px;
+}
+.sc-wordai-metabox-popup-window-title-icon {
+	background-image: url(images/WAI-Black-White-Icon-16x16.png);
+	background-repeat: no-repeat;
+	display: inline-block;
+	width: 16px;
+	height: 16px;	
+	padding-right: 5px;
+	vertical-align: sub;
+	border-radius: 3px;
+}
+.wordai-image-icon-wrapper-div {
+	position: relative;
+	text-align: center;
+}
+.wordai-image-icon-wrapper-div img {
+	border-radius: 5px;		
+	margin-right: 10px;
+}
+.wordai-all-page-top-label-name {
+	position: absolute;
+	top: 17px;
+	font-size:30px;
+	font-weight: 800;
+	font-family: 'Monoton', Arial, Helvetica, sans-serif;
+}
+.sc-wordai-settings-icon {
+  font-size: 28px !important;
+  font-weight: bold !important;
+  padding-right: 15px;
+  vertical-align: text-top;
+  color: #2271b1 !important; 	
+}
+.sc-wordai-settings-text-hints {
+	padding-top: 4%;
+}
+.sc-wordai-apikey-require-hints {
+	font-size: 16px;
+  	color: coral;	
+	font-family: 'Merienda', Arial, Helvetica, sans-serif;
+	line-height: 1.7em;
+}
+
+html body div.metabox-button-click-popup-dialog-class .ui-dialog-title,
+html body div.suggest-titles-button-click-popup-dialog-class .ui-dialog-title {
+	overflow: visible !important;
+}
+button.metabox-content-writer-btn,
+html body div.metabox-button-click-popup-dialog-class .ui-dialog-title,
+html body div.metabox-button-click-popup-dialog-class button,
+html body div.metabox-button-click-popup-dialog-class td,
+html body div.metabox-button-click-popup-dialog-class input,
+html body div.metabox-button-click-popup-dialog-class textarea,
+
+html body div.suggest-titles-button-click-popup-dialog-class .ui-dialog-title,
+html body div.suggest-titles-button-click-popup-dialog-class input,
+html body div.suggest-titles-button-click-popup-dialog-class button,
+html body div.suggest-titles-button-click-popup-dialog-class td {
+	font-family: 'Merienda', Arial, Helvetica, sans-serif;	
+}
+.sc-wordai-save-apikey-submit-btn-td {
+	text-align: center;
+	width: 10%;
+}
+.sc-wordai-save-apikey-submit-btn {
+	padding: 8px 15px !important;
+	font-size: 16px !important;
+	font-weight: bold;
+}
+.metabox-content-writer-btn i {
+	/*vertical-align: text-top;
+	color: white;
+	box-shadow: 1px 1px 12px #FFFFFF;*/
+}
+.metabox-content-writer-btn {
+	padding: 5px !important;
+	border-radius: 5px;
+	box-shadow: 0px 0px 5px #2271b1;
+	min-height: 40px !important;
+	color: white;
+	font-weight: bold;	
+	width: 50%;
+}
+.sc-wordai-items-label {
+  font-size: 14px;
+  vertical-align: middle;
+  font-weight: bold;
+  cursor: pointer;	
+}
+.scwordai-notice-wrapper h3 {
+	color: #FF5F1F;
+}
+.scwordai-notice-wrapper h4 {
+	color: #0D47A1;
+}
+.range-selected-value {
+	font-size: 16px;
+	text-align: center;
+    font-weight: bold;
+    background-color: honeydew;
+    width: 50px;
+    margin: 0 auto;
+    border-radius: 40%;
+    padding: 5px;	
+}
+button.button-primary.sc-wordai-write-titles-btn,
+button.button-primary.sc-wordai-write-content-btn, 
+button.button-primary.sc-wordai-generate-image-btn,
+
+button.button-primary.sc-wordai-write-titles-streaming-btn,
+button.button-primary.sc-wordai-write-content-streaming-btn, 
+button.button-primary.sc-wordai-generate-image-streaming-btn,
+
+
+button.button-primary.sc-wordai-write-suggest-titles-btn,
+button.button-primary.sc-wordai-write-suggest-titles-streaming-btn,
+
+button.button-primary.sc-wordai-generate-content-btn,
+button.button-primary.sc-wordai-generate-content-streaming-btn,
+
+button.button-primary.sc-wordai-generate-cancel-requests-content-btn,
+
+button.button-primary.sc-wordai-write-suggest-titles-cancel-btn,
+button.button-secondary.sc-wordai-suggested-title-update-btn {
+	border-radius: 5px;
+	box-shadow: 0px 0px 5px #2271b1;
+	background-color: black;
+	color: white;
+	font-weight: 700;
+}
+
+/*.ui-dialog { z-index: 1000 !important ;}*/
+
+.suggest-titles-button-click-dialog {
+	max-height: none !important;	
+}
+/*.suggest-titles-button-click-popup-dialog-class {
+	background-color: #0693e3 !important;
+}*/
+.ui-dialog.metabox-button-click-popup-dialog-class {
+	z-index: 100000;
+	/*background-color: #0693e3;*/
+}
+
+#openai-settings-div-wrapper, #openai-content-settings-div-wrapper, #openai-image-settings-div-wrapper {
+	border: 3px #2271b1 ridge;
+	padding: 25px;
+	margin: 10px 20px 0 2px;
+	/*background-color: #FEE6FF;*/
+	background-color: white;
+}
+
+#openai-settings-div-wrapper table, #openai-content-settings-div-wrapper table, #openai-image-settings-div-wrapper table {
+	border-collapse: collapse;
+	width: 100%;
+}
+#openai-settings-div-wrapper tr, #openai-content-settings-div-wrapper tr, #openai-image-settings-div-wrapper tr {
+	border-bottom: 2px dashed #2271b1;	
+}
+#openai-settings-div-wrapper td, #openai-content-settings-div-wrapper td, #openai-image-settings-div-wrapper td {
+	padding-bottom: 15px;
+	padding-left: 15px;
+}
+#openai-image-settings-div-wrapper table tr td:first-child {
+	width: 15%;
+}
+
+#openai-settings-div-wrapper table td {
+	vertical-align: bottom;
+}
+
+.success-msg {
+	color: #4BB543;
+	font-weight: 600;
+}
+.alert-msg {
+	color: cornflowerblue;
+	font-weight: 600;
+}
+.error-msg {
+	color: red;
+	font-weight: 600;
+}
+.alert-change {
+	color:blueviolet;
+}
+.openai-api-key-save-div-wrapper {
+	border: 5px #2271b1 ridge;
+	padding: 25px;
+	background-color: #FEE6FF;
+}
+.openai-api-key-save-div-wrapper table {
+	border-spacing: 15px; 
+	width: 100%;
+}
+input.wordai-api-key-data {
+   height: 50px !important; 
+   width: 100%; 
+   font-size: 16px;
+}
+.wordai-api-key-save-feedback-msg-td {
+	text-align: left;
+	font-size: 16px;
+	font-weight: bold;	
+}
+.api-key-label-td {
+	font-size: 16px; 
+	font-weight: bold; 
+	width: 16%;
+	font-family: 'Merienda', Arial, Helvetica, sans-serif;
+}
+.api-key-label-td.success {
+	color: #4BB543; 
+}
+.api-key-input-data-td {
+	width: 50%;
+}
+.wordai-api-key-show-td {
+	width: 7%;
+	font-weight: bold;
+	color: #2271b1;
+}
+#openai-content-settings-div-wrapper select {
+	width: 90%;
+}
+input.scwordai-prompt {
+	min-width: 750px;
+	min-height: 50px;
+}
+.sc-wordai-generated-title, .sc-wordai-generated-tags {
+	min-width: 750px;
+	font-size: 16px;
+	background-color: white;
+	color: black;
+}
+.sc-wordai-generated-content {
+	min-width: 750px;
+	min-height: 350px;
+	font-size: 16px;
+	background-color: white;
+	color: black;
+}
+.sc-wordai-generated-excerpt {
+	min-width: 750px;
+	min-height: 200px;
+	font-size: 16px;
+	background-color: white;
+	color: black;
+}
+.update-suggested-title-msg span {
+	vertical-align: bottom;
+	padding-left: 10px;
+}
+
+/* Animation */
+.sc-wave {  
+  border-radius: 8px;	
+  /*height: 100vh;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #000;
+}
+.wave {
+  width: 5px;
+  /*height: 100px;*/
+  height: 50px;	
+  background: linear-gradient(45deg, cyan, #fff);
+  margin: 10px;
+  animation: wave 1s linear infinite;
+  border-radius: 20px;
+}
+.wave:nth-child(2) {
+  animation-delay: 0.1s;
+}
+.wave:nth-child(3) {
+  animation-delay: 0.2s;
+}
+.wave:nth-child(4) {
+  animation-delay: 0.3s;
+}
+.wave:nth-child(5) {
+  animation-delay: 0.4s;
+}
+.wave:nth-child(6) {
+  animation-delay: 0.5s;
+}
+.wave:nth-child(7) {
+  animation-delay: 0.6s;
+}
+.wave:nth-child(8) {
+  animation-delay: 0.7s;
+}
+.wave:nth-child(9) {
+  animation-delay: 0.8s;
+}
+.wave:nth-child(10) {
+  animation-delay: 0.9s;
+}
+
+@keyframes wave {
+  0% {
+    transform: scale(0);
+  }
+  50% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0);
+  }
+}
+
+.save-image-to-gallery-icon {
+    animation-duration: 8s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+	color: #4BB543;
+	font-size: 30px;
+}
+
+@keyframes slidein {
+  0% {
+    margin-left: 0%;
+  }
+  50% {
+    margin-left: 300px;
+  }
+  100% {
+    margin-left: 0%;
+  }
+}
+/* Animation */
+
+/* Alert */
+.alert-remind {
+	color: #36BCD1;
+	font-weight: bold;
+}
+.alert-success {
+	color: #4BB543;
+}
+.alert-error {
+	color: red;
+}
+
+.sc-wordai-generated-image-wrapper {
+	display: flex;
+	flex-direction: row;
+	margin: 0 auto;
+	align-items: flex-start;
+	max-width: 650px;
+}
+
+.sc-wordai-generated-image-wrapper img {
+	max-width: 150px;
+	max-height: 150px;
+	margin-right: 10px;
+	border-radius: 5px;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+.sc-wordai-no-api-key-added-notice-wrapper {
+	background-color: azure;
+}
